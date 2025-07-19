@@ -26,6 +26,10 @@ const QuizResultSchema = new mongoose.Schema({
     type: Number, 
     required: true, 
     min: 1 
+  },
+  isRemidial: {
+    type: Boolean,
+    default: false
   }
 }, { timestamps: true });
 
